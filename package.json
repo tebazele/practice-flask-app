@@ -1,0 +1,13 @@
+
+  {
+    "name": "craftranker",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd CraftRanker.client && npm i",
+      "setup:server": "cd CraftRanker && npm i",
+      "start": "node CraftRanker/index.js"
+    }
+  }
+  
