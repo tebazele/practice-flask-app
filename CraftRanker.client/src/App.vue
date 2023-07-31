@@ -5,8 +5,41 @@
   <main>
     <router-view />
   </main>
-   <footer class="bg-dark text-light">
-    Made with 💖 by CodeWorks
+  <footer>
+    <section class="row justify-content-center">
+      <div class="col-12 col-md-5 text-center">
+
+        <img src="./assets/img/craftrankerLogo.png" height="120" />
+      </div>
+
+    </section>
+    <section class="row justify-content-center">
+
+      <div class="col-12 text-center">
+
+        <h6 class="text-uppercase">
+          <router-link :to="{ name: 'Home' }">
+            <span>
+              terms of service
+            </span>
+          </router-link> |
+          <router-link :to="{ name: 'Home' }">
+            <span>
+              Privacy policy
+            </span>
+          </router-link>
+        </h6>
+      </div>
+      <div class="col-6 col-md-4 text-center">
+        <p>
+          Disclaimer: Etsy is a trademark of Etsy, Inc.
+          This content is not created or endorsed by Etsy, Inc.
+          All Rights Reserved 2022 © Copyright CraftRanker
+        </p>
+      </div>
+    </section>
+
+
   </footer>
 </template>
 
@@ -27,7 +60,7 @@ export default {
 <style lang="scss">
 @import "./assets/scss/main.scss";
 
-:root{
+:root {
   --main-height: calc(100vh - 32px - 64px);
 }
 
