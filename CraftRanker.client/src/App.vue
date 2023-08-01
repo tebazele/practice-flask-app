@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="sticky-top">
     <Navbar />
   </header>
   <main>
@@ -7,7 +7,7 @@
   </main>
   <footer>
     <section class="row justify-content-center">
-      <div class="col-12 col-md-5 text-center">
+      <div class="col-12 col-md-5 text-center pt-5">
 
         <img src="./assets/img/craftrankerLogo.png" height="120" />
       </div>
@@ -68,6 +68,6 @@ export default {
 footer {
   display: grid;
   place-content: center;
-  height: 32px;
+
 }
 </style>

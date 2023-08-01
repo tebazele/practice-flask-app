@@ -26,9 +26,16 @@
             About Us
           </router-link>
         </li>
+        <li>
+          <Login />
+
+        </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
-      <Login />
+      <div class="ms-auto text-end">
+
+        <button class="btn bg-primary m-4 px-4 py-2 ms-5 fs-4">Show me how!</button>
+      </div>
     </div>
   </nav>
 </template>
@@ -70,7 +77,7 @@ nav {
 
 @media screen and (min-width: 768px) {
   nav {
-    height: 400px;
+    height: 240px;
   }
 }
 </style>
