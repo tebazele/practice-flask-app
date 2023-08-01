@@ -12,11 +12,15 @@
     </div>
   </section>
   <section class="row justify-content-center">
-    <div class="col-12 col-md-4 text-center mt-5">
+    <div class="col-12 col-md-8 text-center mt-5">
       <h3>We Love Helping Other Etsy Sellers Succeed</h3>
       <p class="text-info">Good advice can be hard to find:<br />We learned that the hard way.</p>
       <p>Our success on Etsy wasn't overnight. And it wasn't an accident, or "good luck."" It was the result of meticulous
         testing, research, mistakes (lots of mistakes) and doing more of what worked (and less of what didn't!). </p>
+
+    </div>
+    <div class="col-12 col-md-4">
+      <img src="../assets/img/craftranker_main.jpg" />
 
     </div>
   </section>
